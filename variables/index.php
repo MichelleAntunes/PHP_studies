@@ -57,3 +57,28 @@ echo "<br>";
 soma(3,4);
 soma(1,4);
 soma(10,7);
+
+echo 5/2;
+echo "<br>";
+
+echo 2 . 3; //gera uma string - concatenar
+echo "<br>";
+
+$nome = "Michelle";
+$sobrenome = "Antunes";
+
+$nomeCompleto = $nome . " " . $sobrenome;
+echo $nomeCompleto;
+echo"<br>";
+
+$operation = "5"*12;
+echo $operation . "<br>";
+echo gettype($operation);
+echo "<br>";
+echo gettype(5.10); //double
+echo "<br>";
+
+echo 20 % 12; // gera o resto da divisão
+echo " módulo <br>";
+echo 20/12;
+echo " divisão <br>";
