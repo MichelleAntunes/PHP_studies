@@ -68,7 +68,7 @@ function compararNumeros ($a,$b){
 compararNumeros(10,2);
 echo "<br>";
 function verificarAcesso ($a,$b){
-    if ($a >= 18) {
+    if ($a >= 18 && $b) {
     echo  "Acesso autorizado";
     } else if ( $a < 18) {
         echo "Acesso negado. Idade mínima requerida: 18 anos";
